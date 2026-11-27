@@ -1,0 +1,40 @@
+[
+  {
+    "file": "src/log.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-g3",
+      "-O0",
+      "-DDEBUG",
+      "-Iinclude",
+      "-c",
+      "src/log.cpp",
+      "-o",
+      "build/log.o"
+    ],
+    "directory": "/home/fanty/Programming/GameDev/plataform",
+    "output": "build/log.o"
+  },
+  {
+    "file": "src/main.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-g3",
+      "-O0",
+      "-DDEBUG",
+      "-Iinclude",
+      "-c",
+      "src/main.cpp",
+      "-o",
+      "build/main.o"
+    ],
+    "directory": "/home/fanty/Programming/GameDev/plataform",
+    "output": "build/main.o"
+  }
+]
